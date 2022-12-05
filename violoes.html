@@ -1,0 +1,523 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TuneSound - Musica para todos os momentos</title>
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="styles/guitarras.css">
+    <link rel="stylesheet" href="styles/violoes.css">
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&family=Poppins:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,500;1,600;1,700;1,800&family=Satisfy&display=swap" rel="stylesheet">
+<!-- WEBKIT -->
+<script src="https://kit.fontawesome.com/d9dda7c4a9.js" crossorigin="anonymous"></script>
+    <header>
+        <hgroup class="titulos left">
+            <a href="index.html">
+                <h1 class="a">TuneSound</h1>
+                <p> Musica para todos os momentos.</p>
+            </a>
+        </hgroup>
+        <nav class="menu">
+            <ul class="right">
+               <li><a href="index.html"><b>Loja</b></a></li>
+               <li><a href="sobrenos.html"><b>Sobre nós</b></a></li>
+               <li><a href="contato.html"><b>Contato</b></a></li>
+            </ul>
+       </nav>
+       <div class="clear"></div>
+       <br>
+    </header>
+</head>
+<body>
+    <br>
+    <nav>
+        <ul class="instru" >
+            <li onclick=show() ><a href="#">Guitarra <span id="guitarra-up"><i class="fa-solid fa-caret-down"></i></span></a>
+
+                <li onclick=show4() ><a href="#">Contra-Baixo<span id="baixo-up"><i class="fa-solid fa-caret-down"></i></span></a>
+                    
+                </li>
+                    
+    
+                    <li onclick=show2()><a href="#">Violões <span id="violao-up"><i class="fa-solid fa-caret-down"></i></span></a>
+    
+                            
+                            
+                            </li>
+
+                        
+
+                            <ul class="gui2" id="gui2">
+                                <li><a href="violoes.html#Dreadnought"><b>  Dreadnought</b></a></li>
+                                <li><a href="violoes.html#Classical"><b>  Classical</b></a></li>
+                                <li><a href="violoes.html#Concert"><b>  Concert</b></a></li>
+                                <li><a href="violoes.html#Parlor"><b>  Parlor</b></a></li>
+                                 <li><a href="violoes.html#Triple"><b>  Triple-0</b></a></li>
+                                <li><a href="violoes.html#Malibu"><b>  Malibu</b></a></li>
+                                <li><a href="violoes.html#Newporter"><b>  Newporter</b></a></li>
+                                <li><a href="violoes.html#Redondo"><b>  Redondo</b></a></li>
+                                <li><a href="violoes.html#Mini"><b>  Mini</b></a></li>
+                                 <li><a href="violoes.html#Auditorium"><b>  Auditorium</b></a></li>                    
+                            </ul>
+                        </li>
+
+
+            <ul class="gui" id="gui">
+                <li><a href="guitarras.html#Stratocaster"><b> Stratocaster</b></a></li>
+                <li><a href="guitarras.html#Telecaster"><b>Telecaster</b></a></li>
+                <li><a href="guitarras.html#Jazzmaster"><b>Jazzmaster</b></a></li>
+                <li><a href="guitarras.html#Mustang"><b>Mustang</b></a></li>
+                <li><a href="guitarras.html#Starcaster"><b>Starcaster</b></a></li>
+                <li><a href="guitarras.html"><b>Ver Todos</b></a></li>
+                
+                </ul>
+                
+                <ul class="gui4" id="gui4">
+                    <li><a href="cotrabaixo.html#Jazz Bass"><b>Jazz Bass</b></a></li>
+                    <li><a href="cotrabaixo.html#Precision Bass"><b>Precision Bass</b></a></li>
+                    <li><a href="cotrabaixo.html#Dimensions Bass"><b>Dimensions Bass</b></a></li>
+                    <li><a href="cotrabaixo.html#Mustang Bass"><b>Mustang Bass</b></a></li>
+                    <li><a href="cotrabaixo.html#Jaguar Bass"><b>Jaguar Bass</b></a></li>
+                    <li><a href="cotrabaixo.html#Acústicos"><b>Acústicos</b></a></li>               
+                </ul>
+        </nav>       
+
+<!--parte nova não apague-->
+
+
+        
+            
+<article class="contra">
+    <section name="Jazz Bass">
+        <div class="center">
+            <a class="bah" name="Dreadnought"><h2>Dreadnought</h2></a> 
+            <div class="box-contras">
+                <div class="box-contra">
+                   <img src="fotos/violão/violões.jfif" alt="Guitarra de 5 cordas"/>
+                   <p class="desc"></p>VIOLÃO DREADNOUGHT TAILOR <br>    
+                   6 CORDAS AÇO COM AFINADOR</p>
+                   <br>
+                   <p class="preco">R$ 967,00</p>
+                   <button class="comprarbtn" onclick="abrircomprar('fotos/violão/violões.jfif','VIOLÃO DREADNOUGHT TAILOR 6 CORDAS AÇO COM AFINADOR', 967,00)"><i class="fa-solid fa-cart-shopping"></i> Comprar Agora</button>
+                </div>
+                <div class="box-contra">
+                    <img  src="fotos/violão/violões01.webp" alt="Guitarra de 5 cordas">
+                  <p class="desc">VIOLÃO DREADNOUGHT MADEIRA TRATADA
+                    6 CORDAS NAINON</p>
+                    <br>
+                    <p class="preco">R$ 648,00</p>
+                    <button class="comprarbtn" onclick="abrircomprar('fotos/violão/violões01.webp','VIOLÃO DREADNOUGHT MADEIRA TRATADA 6 CORDAS NAINON', 648,00)"><i class="fa-solid fa-cart-shopping"></i> Comprar Agora</button>
+                </div>
+                <div class="box-contra">
+                    <img src="fotos/violão/violões02.jfif" alt="Guitarra Ibanez Grx 40 Bkn | Black Night | Stratocaster">
+                    <p class="desc">VIOLÃO DREADNOUGHT TAILOR <br>    
+                        6 CORDAS NAINON COM AFINADOR</p>
+                    <br>
+                    <p class="preco">R$ 826,00</p>
+                    <button class="comprarbtn" onclick="abrircomprar('fotos/violão/violões02.jfif','VIOLÃO DREADNOUGHT TAILOR 6 CORDAS NAINON COM AFINADOR', 826,00)"><i class="fa-solid fa-cart-shopping"></i> Comprar Agora</button>
+                </div>
+            </div>
+            
+        </div>
+        <div class="clear"></div>
+    </section>
+    <br>
+    <section name="Precision Bass">
+        <div class="center">
+            <a class="bah" name="Classical"><h2>Classical</h2></a>
+            <div class="box-contras">
+                <div class="box-contra">
+                    
+                    <img src="fotos/violão/violões2.jfif" alt="Guitarra de 5 cordas"/>
+                    <p class="desc">VIOLÃO CLASSICAL ACOUSTIC<br>
+                        6 CORDAS NAINON 
+                    </p>
+                    <p class="preco">R$ 789,00</p>
+                    <button class="comprarbtn" onclick="abrircomprar('fotos/violão/violões2.jfif','VIOLÃO CLASSICAL ACOUSTIC 6 CORDAS NAINON', 790,00)"><i class="fa-solid fa-cart-shopping"></i> Comprar Agora</button>
+                </div>
+                <div class="box-contra">
+                    <img  src="fotos/violão/violões3.jfif" alt="Guitarra de 5 cordas"/>
+                    <p class="desc">VIOLÃO CLASSICAL ACOUSTIC<br>
+                        6 CORDAS AÇO
+                    </p>
+                    <p class="preco"> 825,00</p>
+                    <button class="comprarbtn" onclick="abrircomprar('fotos/violão/violões3.jfif','VIOLÃO CLASSICAL ACOUSTIC 6 CORDAS AÇO', 825,00)"><i class="fa-solid fa-cart-shopping"></i> Comprar Agora</button>
+                </div>
+                <div class="box-contra">
+                    <img src="fotos/violão/violões03.jfif" alt="Guitarra Strinberg Telecaster Tc120S Bk Preto">
+                    <p class="desc">VIOLÃO CLASSICAL ACOUSTIC<br>
+                        6 CORDAS AÇO COM AFINADOR </p>
+                    <p class="preco">R$ 950,00</p>
+                    <button class="comprarbtn" onclick="abrircomprar('fotos/violão/violões03.jfif','VIOLÃO CLASSICAL ACOUSTIC 6 CORDAS AÇO COM AFINADOR', 950,00)"><i class="fa-solid fa-cart-shopping"></i> Comprar Agora</button>
+                </div>
+            </div>
+            
+        </div>
+        <div class="clear"></div>
+    </section>
+    <br>
+    <section name="Dimensions Bass">
+        <div class="center">
+            <a class="bah" name="Concert"><h2>Concert</h2></a> 
+            <div class="box-contras">
+                <div class="box-contra"> 
+                  <img src="fotos/violão/violões4.jfif" alt="Guitarra de 5 cordas"/>
+                  <p class="desc">VIOLÃO CONCERT GIBSON<br>
+                     6 CORDAS NAINON COM AFINADOR
+                </p>
+                <br>
+                    <p class="preco">R$ 837,00</p>
+                    <button class="comprarbtn" onclick="abrircomprar('fotos/violão/violões4.jfif','VIOLÃO CONCERT GIBSON 6 CORDAS NAINON COM AFINADOR', 837,00)"><i class="fa-solid fa-cart-shopping"></i> Comprar Agora</button>
+                </div>
+                <div class="box-contra">
+                    <img  src="fotos/violão/violões5.jfif" alt="Guitarra de 5 cordas" />
+                  <p class="desc">VIOLÃO CONCERT TAKEMINE <br>    
+                    6 CORDAS NAINON COM AFINADOR</p>
+                    <br>
+                    <p class="preco">R$ 846,00</p>
+                    <button class="comprarbtn" onclick="abrircomprar('fotos/violão/violões5.jfif','VIOLÃO CONCERT TAGIMA 6 NAINON COM AFINADOR', 846,00)"><i class="fa-solid fa-cart-shopping"></i> Comprar Agora</button>
+                </div>
+                <div class="box-contra">
+                    <img src="fotos/violão/violões05.jfif" alt="GUITARRA SQUIER BULLET MUSTANG® HH LRL BLK">
+                    <p class="desc">VIOLÃO CONCERT GIBSON<br>    
+                        6 CORDAS NAINON COM AFINADOR</p>
+                    <br>
+                    <p class="preco">R$ 789,00</p>
+                    <button class="comprarbtn" onclick="abrircomprar('fotos/violão/violões05.jfif','VIOLÃO CONCERT GIBSON 6 CORDAS NAINON COM AFINADOR', 789,00)"><i class="fa-solid fa-cart-shopping"></i> Comprar Agora</button>
+                </div>
+            </div>
+            
+        </div>
+        <div class="clear"></div>
+    </section>
+
+    <section name="Mustang Bass">
+        <div class="center">
+            <a class="bah" name="Parlor"><h2>Parlor</h2></a>  
+            <div class="box-contras">
+                <div class="box-contra">
+
+                    <img src="fotos/violão/violões6.jfif" alt="Guitarra de 5 cordas"/>
+                    <p class="desc">VIOLÃO PARLOR TAGIMA<br>    
+                        6 CORDAS AÇO      
+                  </p>
+                  <br>
+                    <p class="preco">R$ 790,00</p>
+                    <button class="comprarbtn" onclick="abrircomprar('fotos/violão/violões6.jfif','VIOLÃO PARLOR TAGIMA 6 AÇO', 790,00)"><i class="fa-solid fa-cart-shopping"></i> Comprar Agora</button>
+                </div>
+
+                <div class="box-contra">
+                    <img  src="fotos/violão/violões7.jfif" alt="Guitarra de 5 cordas"/>
+              <p class="desc">VIOLÃO PARLOR STRINBERG<br>    
+                6 CORDAS AÇO COM AFINADOR</p>
+                    <br>
+                    <p class="preco">R$ 853,00</p>
+                    <button class="comprarbtn" onclick="abrircomprar('fotos/violão/violões7.jfif','VIOLÃO PARLOR STRINBERG 6 CORDAS AÇO COM AFINADOR', 853,00)"><i class="fa-solid fa-cart-shopping"></i> Comprar Agora</button>
+                </div>
+                <div class="box-contra">
+                    <img src="fotos/violão/violões78.jfif" alt="Guitarra Strinberg Telecaster Tc120S Bk Preto">
+                    <p class="desc">VIOLÃO PARLOR GIBSON<br>    
+                        6 CORDAS NAINON </p>
+                        <br>
+                    <p class="preco">R$ 749,00</p>
+                    <button class="comprarbtn" onclick="abrircomprar('fotos/violão/violões78.jfif','VIOLÃO PARLOR GIBSON 6 NAINON', 749,00)"><i class="fa-solid fa-cart-shopping"></i> Comprar Agora</button>
+                </div>
+            </div>
+            
+        </div>
+</div>
+<div class="clear"></div>
+
+    </section>
+    <br>
+
+    <section name="Jaguar Bass">
+        <div class="center">
+            <a class="bah" name="Triple"><h2>Triple-0</h2></a> 
+            <div class="box-contras">
+                <div class="box-contra">
+                    <img src="fotos/violão/violões8.jfif" alt="Guitarra de 5 cordas" />
+                    <p class="desc">VIOLÃO TRIPLE-0 GIBSON<br>    
+                        6 CORDAS NAINON 
+                    <p class="preco">R$ 845,00</p>
+                    <button class="comprarbtn" onclick="abrircomprar('fotos/violão/violões8.jfif','VIOLÃO TRIPLE-0 GIBSON 6 CORDAS NAINON', 845,00)"><i class="fa-solid fa-cart-shopping"></i> Comprar Agora</button>
+                </div>
+
+                <div class="box-contra">
+                    <img  src="fotos/violão/violões9.jfif" alt="Guitarra de 5 cordas">
+          <p class="desc">VIOLÃO TRIPLE-0 STRINBERG<br>    
+            6 CORDAS AÇO
+                    <br>
+                    <p class="preco">R$ 783,00</p>
+                    <button class="comprarbtn" onclick="abrircomprar('fotos/violão/violões9.jfif','VIOLÃO TRIPLE-0 STRINBERG 6 CORDAS AÇO', 783,00)"><i class="fa-solid fa-cart-shopping"></i> Comprar Agora</button>
+                </div>
+                <div class="box-contra">
+                    <img class="bx" src="fotos/violão/violões91.jfif" alt="Guitarra Strinberg Telecaster Tc120S Bk Preto">
+                    <p class="desc">VIOLÃO TRIPLE-0 GIBSON<br>    
+                        6 CORDAS AÇO
+                        <br>
+                    <p class="preco">R$ 749,00</p>
+                    <button class="comprarbtn" onclick="abrircomprar('fotos/violão/violões91.jfif','VIOLÃO TRIPLE-0 GIBSON 6 CORDAS AÇO', 749,00)"><i class="fa-solid fa-cart-shopping"></i> Comprar Agora</button>
+                </div>
+            </div>
+            
+        </div>
+        
+    
+    
+</div>
+<div class="clear"></div>
+
+    </section>
+    <br>
+    
+    <br>    
+    <section name="Acusticos">
+        <div class="center">
+            <a class="bah" name="Malibu"></a><h2>Malibu</h2></a>  
+            <div class="box-contras">
+                <div class="box-contra">
+                            
+                     <img  src="fotos/violão/violões10.jfif" alt="Guitarra de 5 cordas"/>
+                     <p class="desc">VIOLÃO MALIBU GIBSON<br>    
+                        6 CORDAS NAINON COM AFINADOR<br>
+                </p>
+                    <p class="preco">R$ 857,00</p>
+                    <button class="comprarbtn" onclick="abrircomprar('fotos/violão/violões10.jfif','VIOLÃO MALIBU GIBSON 6 CORDAS NAINON COM AFINADOR', 857,00)"><i class="fa-solid fa-cart-shopping"></i> Comprar Agora</button>
+                </div>
+
+                <div class="box-contra">
+                    <img  src="fotos/violão/violões11.jfif" alt="Guitarra de 5 cordas" />
+              <p class="desc">VIOLÃO MALIBU GIBSON<br>    
+                6 CORDAS AÇO COM AFINADOR<br>
+            </p>
+                    <p class="preco">R$ 873,00</p>
+                    <button class="comprarbtn" onclick="abrircomprar('fotos/violão/violões11.jfif','VIOLÃO MALIBU GIBSON 6 CORDAS AÇO COM AFINADOR', 873,00)"><i class="fa-solid fa-cart-shopping"></i> Comprar Agora</button>
+                </div>
+                <div class="box-contra">
+                    <img src="fotos/violão/violões011.jfif" alt="Guitarra Strinberg Telecaster Tc120S Bk Preto">
+                    <p class="desc">VIOLÃO MALIBU STRINBERG<br>    
+                        6 CORDAS NAINON COM AFINADOR</p>
+                       
+                    <p class="preco">R$ 849,00</p>
+                    <button class="comprarbtn" onclick="abrircomprar('fotos/violão/violões011.jfif','VIOLÃO MALIBU STRINBERG 6 CORDAS NAINON COM AFINADOR', 849,00)"><i class="fa-solid fa-cart-shopping"></i> Comprar Agora</button>
+                </div>
+            </div>
+            
+        </div>
+        <div class="clear"></div>
+        <br>
+
+        <section name="Acusticos">
+            <div class="center">
+                <a class="bah" name="Newporter"></a><h2>Newporter</h2></a>  
+                <div class="box-contras">
+                    <div class="box-contra">
+                                
+                         <img src="fotos/violão/violões12.jfif" alt="Guitarra de 5 cordas"/>
+                         <p class="desc">VIOLÃO NEWPORTER FENDER<br>    
+                            6 CORDAS NAINON</p>
+                        <p class="preco">R$ 750,00</p>
+                        <button class="comprarbtn" onclick="abrircomprar('fotos/violão/violões12.jfif','VIOLÃO NEWPORTER FENDER 6 CORDAS NAINON', 750,00)"><i class="fa-solid fa-cart-shopping"></i> Comprar Agora</button>
+                    </div>
+    
+                    <div class="box-contra">
+                        <img class="Starcaster" src="fotos/violão/violões13.jfif" alt="Guitarra de 5 cordas" />
+                  <p class="desc">VIOLÃO NEWPORTER FENDER<br>    
+                    6 CORDAS AÇO COM AFINADOR</p>
+                        <p class="preco">R$ 935,00</p>
+                        <button class="comprarbtn" onclick="abrircomprar('fotos/violão/violões13.jfif','VIOLÃO NEWPORTER FENDER 6 CORDAS AÇO COM AFINADOR', 935,00)"><i class="fa-solid fa-cart-shopping"></i> Comprar Agora</button>
+                    </div>
+                    <div class="box-contra">
+                        <img src="fotos/violão/violões001.jfif" alt="Guitarra Strinberg Telecaster Tc120S Bk Preto">
+                        <p class="desc">VIOLÃO NEWPORTER FENDER<br>    
+                            6 CORDAS NAINON COM AFINADOR</p>
+                           
+                        <p class="preco">R$ 839,00</p>
+                        <button class="comprarbtn" onclick="abrircomprar('fotos/violão/violões001.jfif','VIOLÃO NEWPORTER FENDER 6 CORDAS NAINON COM AFINADOR', 839,00)"><i class="fa-solid fa-cart-shopping"></i> Comprar Agora</button>
+                    </div>
+                </div>
+                
+            </div>
+
+            <div class="clear"></div>
+            <br>
+            <section name="Acusticos">
+                <div class="center">
+                    <a name="Redondo"></a><h2>Redondo</h2></a>  
+                    <div class="box-contras">
+                        <div class="box-contra">
+                                    
+                             <img  src="fotos/violão/violões14.jfif" alt="Guitarra de 5 cordas"/>
+                             <p class="desc">VIOLÃO REDONDO FENDER<br>    
+                                6 CORDAS NAINON COM AFINADOR</p>
+                            <p class="preco">R$ 790,00</p>
+                            <button class="comprarbtn" onclick="abrircomprar('fotos/violão/violões14.jfif','VIOLÃO REDONDO FENDER 6 CORDAS NAINON COM AFINADOR', 723,00)"><i class="fa-solid fa-cart-shopping"></i> Comprar Agora</button>
+                        </div>
+        
+                        <div class="box-contra">
+                            <img class="Starcaster" src="fotos/violão/violões15.jfif" alt="Guitarra de 5 cordas" />
+                      <p class="desc">VIOLÃO REDONDO FENDER<br>    
+                        6 CORDAS NAINON</p>
+                    </p>
+                            <p class="preco">R$ 723,00</p>
+                            <button class="comprarbtn" onclick="abrircomprar('fotos/violão/violões15.jfif','VIOLÃO REDONDO FENDER 6 CORDAS NAINON', 723,00)"><i class="fa-solid fa-cart-shopping"></i> Comprar Agora</button>
+                        </div>
+                        <div class="box-contra">
+                            <img src="fotos/violão/violões015.jfif" alt="Guitarra Strinberg Telecaster Tc120S Bk Preto">
+                            <p class="desc">VIOLÃO REDONDO GIBSON<br>    
+                                6 CORDAS NAINON COM AFINADOR</p>
+                               
+                            <p class="preco">R$ 855,00</p>
+                            <button class="comprarbtn" onclick="abrircomprar('fotos/violão/violões015.jfif','VIOLÃO REDONDO GIBSON 6 CORDAS NAINON COM AFINADOR', 855,00)"><i class="fa-solid fa-cart-shopping"></i> Comprar Agora</button>
+                        </div>
+                    </div>
+                    
+                </div>
+                <div class="clear"></div>
+                <br>
+                <section name="Acusticos">
+                    <div class="center">
+                        <a name="Mini"></a><h2>Mini</h2></a>  
+                        <div class="box-contras">
+                            <div class="box-contra">
+                                        
+                                 <img src="fotos/violão/violões21.jfif" alt="Guitarra de 5 cordas"/>
+                                 <p class="desc">VIOLÃO MINI BABY<br>    
+                                    6 CORDAS NAINON</p>
+                                <p class="preco">R$ 530,00</p>
+                                <button class="comprarbtn" onclick="abrircomprar('fotos/violão/violões21.jfif','VIOLÃO MINI BABY 6 CORDAS NAINON', 530,00)"><i class="fa-solid fa-cart-shopping"></i> Comprar Agora</button>
+                            </div>
+            
+                            <div class="box-contra">
+                                <img class="Starcaster" src="fotos/violão/violões20.jfif" alt="Guitarra de 5 cordas" />
+                          <p class="desc">VIOLÃO MINI BABY GIBSON<br>    
+                            6 CORDAS NAINON<br>
+                        </p>
+                                <p class="preco">R$ 453,00</p>
+                                <button class="comprarbtn" onclick="abrircomprar('fotos/violão/violões20.jfif','VIOLÃO MINI BABY GIBSON 6 CORDAS NAINON', 453,00)"><i class="fa-solid fa-cart-shopping"></i> Comprar Agora</button>
+                            </div>
+                            <div class="box-contra">
+                                <img class="bx1" src="fotos/violão/violões24.jfif" alt="Guitarra Strinberg Telecaster Tc120S Bk Preto">
+                                <p class="desc">VIOLÃO MINI  BABY FENDER<br>    
+                                    6 CORDAS NAINON</p>
+                                   
+                                <p class="preco">R$ 549,00</p>
+                                <button class="comprarbtn" onclick="abrircomprar('fotos/violão/violões24.jfif','VIOLÃO MINI BABY FENDER 6 CORDAS NAINON', 549,00)"><i class="fa-solid fa-cart-shopping"></i> Comprar Agora</button>
+                            </div>
+                        </div>
+                        
+                    </div>
+
+                    <div class="clear"></div>
+
+                    <section name="Acusticos">
+                        <div class="center">
+                            <a name="Auditorium"></a><h2>Auditorium</h2></a>  
+                            <div class="box-contras">
+                                <div class="box-contra">
+                                            
+                                     <img src="fotos/violão/violões16.jfif" alt="Guitarra de 5 cordas"/>
+                                     <p class="desc">VIOLÃO AUDITORIUM GIBSON<br>    
+                                        6 CORDAS NAINON COM AFINADOR</p>
+                                    <p class="preco">R$ 769,00</p>
+                                    <button class="comprarbtn" onclick="abrircomprar('fotos/violão/violões16.jfif','VIOLÃO AUDITORIUM GIBSON 6 CORDAS NAINON COM AFINADOR', 769,00)"><i class="fa-solid fa-cart-shopping"></i> Comprar Agora</button>
+                                </div>
+                
+                                <div class="box-contra">
+                                    <img class="Starcaster" src="fotos/violão/vilões 18.webp" alt="Guitarra de 5 cordas" />
+                              <p class="desc">VIOLÃO AUDITORIUM GIBSON<br>    
+                                6 CORDAS AÇO COM AFINADOR<br>
+                            </p> 
+                            <br>
+                                    <p class="preco">R$ 823,00</p>
+                                    <button class="comprarbtn" onclick="abrircomprar('fotos/violão/vilões 18.webp','VIOLÃO AUDITORIUM GIBSON 6 CORDAS AÇO COM AFINADOR', 823,00)"><i class="fa-solid fa-cart-shopping"></i> Comprar Agora</button>
+                                </div>
+                                <div class="box-contra">
+                                    <img class="bx1" src="fotos/violão/violões0021.jfif" alt="Guitarra Strinberg Telecaster Tc120S Bk Preto">
+                                    <p class="desc">VIOLÃO AUDITORIUM GIBSON<br>    
+                                        6 CORDAS NAINON COM AFINADOR</p>
+                                       
+                                    <p class="preco">R$ 849,00</p>
+                                    <button class="comprarbtn" onclick="abrircomprar('fotos/violão/violões0021.jfif','VIOLÃO AUDITORIUM GIBSON 6 CORDAS NAINON COM AFINADOR', 849,00)"><i class="fa-solid fa-cart-shopping"></i> Comprar Agora</button>
+                                </div>
+                            </div>
+                            
+                        </div>
+</div>
+    <div class="clear"></div>
+</section>
+</article>
+             
+        
+<footer>
+    <hgroup class="logo">
+        <a href="/">
+            <h1 class="a">TuneSound</h1>
+            <p> Musica para todos os momentos.</p>
+        </a>
+    </hgroup>
+    <nav>
+        <ul class="sobre-footer">
+            <h2>Conheça-nos</h2>
+            <br>
+            <hr>
+            <br>
+            <li><a href="sobrenos.html">Sobre nós</a></li>
+            <li><a href="contato.html">Contato</a></li>
+            
+        </ul>
+    </nav>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3485.7628537723344!2d-49.639831385109176!3d-29.11268179552343!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95223c3a4a83e783%3A0x19c1ab84184ec7de!2sR.%20Jo%C3%A3o%20Jos%C3%A9%20de%20Guimar%C3%A3es%2C%20491%20-%20Centro%2C%20Sombrio%20-%20SC%2C%2088960-000!5e0!3m2!1spt-BR!2sbr!4v1668896481042!5m2!1spt-BR!2sbr" width="30%" height="85%" style="border:0; margin-top: 10px;margin-left: 50px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    <div class="clear"></div>
+
+</footer>
+<div class="overlay-compra" id="overlay-compra"></div>
+<div class="box-compra" id="box-compra">
+    <button onclick="fecharcompra()" id="close"><i class="fa-regular fa-circle-xmark"></i></button>
+    <div class="clear"></div>
+    <p>Você esta comprando:</p>
+    <div class="box-whatubuying">
+        <img class="left" width="30%" id="img" src="">   
+        <p id="desc" class="desc right" width="50%"></p>
+        <p id="preco" class="preco right" width="50%"></p>
+        <div class="clear"></div>
+    </div>
+    <br>
+    <form class="cartao">
+        <label for="name">Insira seu nome completo:</label>
+        <input type="text" name="name" placeholder="Jõao Maria da Silva">
+        <label for="idade">Insira sua data de nascimento:</label>
+        <input type="date" name="idade" placeholder="16/11/2006">
+        <label for="cpf">Insira seu CPF:</label>
+        <input type="text" name="cpf" maxlength="11" placeholder="000-000-000-00">
+        <label for="cartao">Insira o Número do seu cartão:</label>
+        <input type="text" name="cartao" maxlength="16" placeholder="0000-0000-0000-0000">
+        <label for="venc">Insira a data de vencimento do cartão:</label>
+        <input type="date" name="venci">
+        <label for="cvv">Insira o codigo de verificação de seu cartão:</label>
+        <input type="text" name="cvv" placeholder="000" maxlength="3">
+        <br>
+        <hr>
+        <br>
+        <form class="endereco">
+            <label for="cep">Digite seu CEP:</label>
+            <input type="cep" name="cep" placeholder="00000-000" maxlength="9">
+            <label for="rua">Digite sua rua:</label>
+            <input type="rua" name="rua" placeholder="Rua Maria João de Silva">
+            <label for="num">Insira o numero de sua resindencia ou apartamento:</label>
+        <input type="text" name="num" placeholder="1111" maxlength="4">
+        </form>
+        <button class="sbmit"><i class="fa-regular fa-circle-check"></i><a href="comprafi.html"> Finalizar Compra</a></button>
+        
+    </form>
+    <b>Esse formulario de compra é ficticio, por favor não coloque seus dados reais!</b>
+</div>
+</body>
+
+<script src="main.js"></script>
+</html>

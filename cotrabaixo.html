@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TuneSound - Musica para todos os momentos</title>
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="styles/guitarras.css">
+    <link rel="stylesheet" href="styles/contra.css">
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&family=Poppins:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,500;1,600;1,700;1,800&family=Satisfy&display=swap" rel="stylesheet">
+    <!-- WEBKIT -->
+    <script src="https://kit.fontawesome.com/d9dda7c4a9.js" crossorigin="anonymous"></script>
+    <header>
+        <hgroup class="titulos left">
+            <a href="index.html">
+                <h1 class="a">TuneSound</h1>
+                <p> Musica para todos os momentos.</p>
+            </a>
+        </hgroup>
+        <nav class="menu">
+            <ul class="right">
+                <li><a href="index.html"><b>Loja</b></a></li>
+               <li><a href="sobrenos.html"><b>Sobre nós</b></a></li>
+               <li><a href="contato.html"><b>Contato</b></a></li>
+            </ul>
+       </nav>
+       <div class="clear"></div>
+       <br>
+    </header>
+</head>
+<body>
+    <br>
+    <nav>
+        <ul class="instru" >
+            <li onclick=show() ><a href="#">Guitarra <span id="guitarra-up"><i class="fa-solid fa-caret-down"></i></span></a>
+
+                <li onclick=show4() ><a href="#">Contra-Baixo<span id="baixo-up"><i class="fa-solid fa-caret-down"></i></span></a>
+                    
+                </li>
+                    
+    
+                    <li onclick=show2()><a href="#">Violões <span id="violao-up"><i class="fa-solid fa-caret-down"></i></span></a>
+    
+                            
+                            
+                            </li>
+
+                        
+
+                            <ul class="gui2" id="gui2">
+                                <li><a href="violoes.html#Dreadnought"><b>  Dreadnought</b></a></li>
+                                <li><a href="violoes.html#Classical"><b>  Classical</b></a></li>
+                                <li><a href="violoes.html#Concert"><b>  Concert</b></a></li>
+                                <li><a href="violoes.html#Parlor"><b>  Parlor</b></a></li>
+                                 <li><a href="violoes.html#Triple"><b>  Triple-0</b></a></li>
+                                <li><a href="violoes.html#Malibu"><b>  Malibu</b></a></li>
+                                <li><a href="violoes.html#Newporter"><b>  Newporter</b></a></li>
+                                <li><a href="violoes.html#Redondo"><b>  Redondo</b></a></li>
+                                <li><a href="violoes.html#Mini"><b>  Mini</b></a></li>
+                                 <li><a href="violoes.html#Auditorium"><b>  Auditorium</b></a></li>                    
+                            </ul>
+                        </li>
+
+
+            <ul class="gui" id="gui">
+                <li><a href="guitarras.html#Stratocaster"><b> Stratocaster</b></a></li>
+                <li><a href="guitarras.html#Telecaster"><b>Telecaster</b></a></li>
+                <li><a href="guitarras.html#Jazzmaster"><b>Jazzmaster</b></a></li>
+                <li><a href="guitarras.html#Mustang"><b>Mustang</b></a></li>
+                <li><a href="guitarras.html#Starcaster"><b>Starcaster</b></a></li>
+                <li><a href="guitarras.html"><b>Ver Todos</b></a></li>
+                
+                </ul>
+                
+                <ul class="gui4" id="gui4">
+                    <li><a href="cotrabaixo.html#Jazz Bass"><b>Jazz Bass</b></a></li>
+                    <li><a href="cotrabaixo.html#Precision Bass"><b>Precision Bass</b></a></li>
+                    <li><a href="cotrabaixo.html#Dimensions Bass"><b>Dimensions Bass</b></a></li>
+                    <li><a href="cotrabaixo.html#Mustang Bass"><b>Mustang Bass</b></a></li>
+                    <li><a href="cotrabaixo.html#Jaguar Bass"><b>Jaguar Bass</b></a></li>
+                    <li><a href="cotrabaixo.html#Acústicos"><b>Acústicos</b></a></li>               
+                </ul>
+        </nav>       
+
+<!--parte nova não apague-->
+
+<article class="contra">
+    <section name="Jazz Bass">
+        <div class="center">
+            <a class="bah" name="Jazz Bass"><h2>Jazz Bass</h2></a> 
+            <div class="box-contras">
+                <div class="box-contra">
+                   <img src="fotos/baixo/contra.jfif" alt="Guitarra de 5 cordas"/>
+                   <p class="desc">Contra-Baixo jazz bass 4 cordas <br> com 2 controles de distorção</p>
+                   <br>
+                   <p class="preco">R$ 1.567,00</p>
+                    <button class="comprarbtn" onclick="abrircomprar('fotos/baixo/contra.jfif','Contra-Baixo jazz bass 4 cordas  com 2 controles de distorção', 1.567,00)"><i class="fa-solid fa-cart-shopping"></i> Comprar Agora</button>
+                </div>
+                <div class="box-contra">
+                    <img  src="fotos/baixo/contra1.jfif" alt="Guitarra de 5 cordas">
+                  <p class="desc">Contra-Baixo jazz bass 4 cordas com 3 controles de distorção</p>
+                    <br>
+                    <p class="preco">R$ 1.258,00</p>
+                    <button class="comprarbtn" onclick="abrircomprar('fotos/baixo/contra1.jfif','Contra-Baixo jazz bass 4 cordas com 3 controles de distorção', 1.258,00)"><i class="fa-solid fa-cart-shopping"></i> Comprar Agora</button>
+                </div>
+                <div class="box-contra">
+                    <img src="fotos/baixo/contra22.jpeg" alt="Guitarra Ibanez Grx 40 Bkn | Black Night | Stratocaster">
+                    <p class="desc">Contra-Baixo jazz bass 4 cordas com 2 controles de distorção</p>
+                    <br>
+                    <p class="preco">R$ 1.326,00</p>
+                    <button class="comprarbtn" onclick="abrircomprar('fotos/baixo/contra22.jpeg','Contra-Baixo jazz bass 4 cordas com 2 controles de distorção', 1.326,00)"><i class="fa-solid fa-cart-shopping"></i> Comprar Agora</button>
+                </div>
+            </div>
+            
+        </div>
+        <div class="clear"></div>
+    </section>
+    <br>
+    <section name="Precision Bass">
+        <div class="center">
+            <a class="bah" name="Precision Bass"><h2>Precision Bass</h2></a>
+            <div class="box-contras">
+                <div class="box-contra">
+                    
+                    <img src="fotos/baixo/contra2.jfif" alt="Guitarra de 5 cordas"/>
+                    <p class="desc">Contra-Baixo Precision bass <br>
+                        Special editio 4 cordas 
+                    </p>
+                    <br>
+                    <p class="preco">R$ 1.900,00</p>
+                    <button class="comprarbtn" onclick="abrircomprar('fotos/baixo/contra2.jfif','Contra-Baixo Precision bass Special editio 4 cordas ', 1.900,00)"><i class="fa-solid fa-cart-shopping"></i> Comprar Agora</button>
+                </div>
+                <div class="box-contra">
+                    <img class="bx2" src="fotos/baixo/contra3214.jfif"  alt="Guitarra de 5 cordas" />
+                    <p class="desc">Contra-Baixo Precision bass
+                        Special editio 4 cordas Color white brown 
+                    </p>
+                    <br>
+                    <p class="preco">R$ 1.354,00</p>
+                    <button class="comprarbtn" onclick="abrircomprar('fotos/baixo/contra3.jfif','Contra-Baixo Precision bass Special editio 4 cordas 2 controles de distorção Color real gray', 1.354,00)"><i class="fa-solid fa-cart-shopping"></i> Comprar Agora</button>
+                </div>
+                <div class="box-contra">
+                    <img src="fotos/baixo/contra31.jpeg" alt="Guitarra Strinberg Telecaster Tc120S Bk Preto">
+                    <p class="desc">Contra-Baixo Precision bass <br>
+                        edition plus 4 cordas distorção </p>
+                    <br>
+                    <p class="preco">R$ 1.779,00</p>
+                    <button class="comprarbtn" onclick="abrircomprar('fotos/baixo/contra31.jfif','Contra-Baixo Precision bass edition plus 4 cordas distorção </p>', 1.779,00)"><i class="fa-solid fa-cart-shopping"></i> Comprar Agora</button>
+                </div>
+            </div>
+            
+        </div>
+        <div class="clear"></div>
+    </section>
+    <br>
+    <section name="Dimensions Bass">
+        <div class="center">
+            <a class="bah" name="Dimensions Bass"><h2>Dimensions Bass</h2></a> 
+            <div class="box-contras">
+                <div class="box-contra"> 
+                  <img src="fotos/baixo/contra4.jfif" alt="Guitarra de 5 cordas"/>
+                  <p class="desc">Contra-Baixo Dimensions Bass 5 cordas <br>
+                    3 controles de distorção 
+                </p>
+                    <p class="preco">R$ 1.537,00</p>
+                    <button class="comprarbtn" onclick="abrircomprar('fotos/baixo/contra4.jfif','Contra-Baixo Dimensions Bass 5 cordas 3 controles de distorção', 1.537,00)"><i class="fa-solid fa-cart-shopping"></i> Comprar Agora</button>
+                </div>
+                <div class="box-contra">
+                    <img  src="fotos/baixo/contra5.jfif" alt="Guitarra de 5 cordas" />
+                  <p class="desc">Contra-Baixo Dimensions Bass 4 cordas</p>
+                    <br>
+                    <p class="preco">R$ 1.246,00</p>
+                    <button class="comprarbtn" onclick="abrircomprar('fotos/baixo/contra5.jfif','Contra-Baixo Dimensions Bass 4 cordas', 1.246,00)"><i class="fa-solid fa-cart-shopping"></i> Comprar Agora</button>
+                </div>
+                <div class="box-contra">
+                    <img class="bx" src="fotos/guitarras/mustang3.webp" alt="GUITARRA SQUIER BULLET MUSTANG® HH LRL BLK">
+                    <p class="desc">GUITARRA SQUIER BULLET MUSTANG® HH LRL BLK</p>
+                    <br>
+                    <p class="preco">R$ 1.179,00</p>
+                    <button class="comprarbtn" onclick="abrircomprar('fotos/guitarras/mustang3.webp','GUITARRA SQUIER BULLET MUSTANG® HH LRL BLK', 1.179,00)"><i class="fa-solid fa-cart-shopping"></i> Comprar Agora</button>
+                </div>
+            </div>
+            
+        </div>
+        <div class="clear"></div>
+    </section>
+
+    <section name="Mustang Bass">
+        <div class="center">
+            <a class="bah" name="Mustang Bass"><h2>Mustang Bass</h2></a>  
+            <div class="box-contras">
+                <div class="box-contra">
+
+                    <img src="fotos/baixo/contra6.jfif" alt="Guitarra de 5 cordas"/>
+                    <p class="desc">Contra-Baixo Mustang Bass squier classic <br>
+                      Color Black 5 cordas     
+                  </p>
+                    <p class="preco">R$ 1.477,00</p>
+                    <button class="comprarbtn" onclick="abrircomprar('fotos/baixo/contra6.jfif','Contra-Baixo Mustang Bass squier classic Color Black 5 cordas', 1.477,00)"><i class="fa-solid fa-cart-shopping"></i> Comprar Agora</button>
+                </div>
+
+                <div class="box-contra">
+                    <img  src="fotos/baixo/contra7.jfif" alt="Guitarra de 5 cordas"/>
+              <p class="desc">Contra-Baixo Mustang <p >
+                COLOR TORINE RED 5 CORDAS</p>
+                    <br>
+                    <p class="preco">R$ 1.523,00</p>
+                    <button class="comprarbtn" onclick="abrircomprar('fotos/baixo/contra7.jfif','Contra-Baixo Mustang COLOR TORINE RED 5 CORDAS', 1.523,00)"><i class="fa-solid fa-cart-shopping"></i> Comprar Agora</button>
+                </div>
+                <div class="box-contra">
+                    <img src="fotos/baixo/contra78.jpeg" alt="Guitarra Strinberg Telecaster Tc120S Bk Preto">
+                    <p class="desc">Contra-Baixo Mustang <p >
+                        COLOR GRAY 4 CORDAS</p>
+                        <br>
+                    <p class="preco">R$ 1.549,00</p>
+                    <button class="comprarbtn" onclick="abrircomprar('fotos/baixo/contra78.jfif','Contra-Baixo Mustang COLOR GRAY 4 CORDAS', 1.549)"><i class="fa-solid fa-cart-shopping"></i> Comprar Agora</button>
+                </div>
+            </div>
+            
+        </div>
+</div>
+<div class="clear"></div>
+
+    </section>
+    <br>
+
+    <section name="Jaguar Bass">
+        <div class="center">
+            <a class="bah" name="Jaguar Bass"><h2>Jaguar Bass</h2></a> 
+            <div class="box-contras">
+                <div class="box-contra">
+                    <img src="fotos/baixo/contra8.jfif" alt="Guitarra de 5 cordas" />
+                    <p class="desc">Contra-Baixo Jaguar Bass <br>
+                      color real blue 4 cordas</p>
+                      <br>
+                    <p class="preco">R$ 1.567,00</p>
+                    <button class="comprarbtn" onclick="abrircomprar('fotos/baixo/contra8.jfif','Contra-Baixo Jaguar Bass color real blue 4 cordas', 1.567,00)"><i class="fa-solid fa-cart-shopping"></i> Comprar Agora</button>
+                </div>
+
+                <div class="box-contra">
+                    <img  src="fotos/baixo/contra9.jfif" alt="Guitarra de 5 cordas">
+          <p class="desc">Contra-Baixo Jaguar Bass fender<br>
+            color gray grenn 4 cordas</p>
+                    <br>
+                    <p class="preco">R$ 1.483,00</p>
+                    <button class="comprarbtn" onclick="abrircomprar('fotos/baixo/contra9.jfif','Contra-Baixo Jaguar Bass fender color gray grenn 4 cordas', 1.483,00)"><i class="fa-solid fa-cart-shopping"></i> Comprar Agora</button>
+                </div>
+                <div class="box-contra">
+                    <img class="bx" src="fotos/baixo/contra91.jfif" alt="Guitarra Strinberg Telecaster Tc120S Bk Preto">
+                    <p class="desc">Contra-Baixo Mustang <p >
+                        COLOR yellow 4 CORDAS</p>
+                        <br>
+                    <p class="preco">R$ 1.549,00</p>
+                    <button class="comprarbtn" onclick="abrircomprar('fotos/baixo/contra91.jfif','Contra-Baixo Mustang COLOR yellow 4 CORDAS', 1.549,00)"><i class="fa-solid fa-cart-shopping"></i> Comprar Agora</button>
+                </div>
+            </div>
+            
+        </div>
+        
+    
+    
+</div>
+<div class="clear"></div>
+
+    </section>
+    <br>
+    
+    <br>    
+    <section name="Acusticos">
+        <div class="center">
+            <a class="bah" name="Acústicos"></a><h2>Acústicos</h2></a>  
+            <div class="box-contras">
+                <div class="box-contra">
+                            
+                     <img src="fotos/baixo/contra10.jpeg" alt="Guitarra de 5 cordas"/>
+                     <p class="desc">Contra-Baixo Acústicos <br>
+                color orange 4 cordas</p>
+                    <p class="preco">R$ 1.857,00</p>
+                    <button class="comprarbtn" onclick="abrircomprar('fotos/baixo/contra10.jpeg','>Contra-Baixo Acústicos color orange 4 cordas', 1.857,00)"><i class="fa-solid fa-cart-shopping"></i> Comprar Agora</button>
+                </div>
+
+                <div class="box-contra">
+                    <img class="Starcaster" src="fotos/baixo/contra11.jpeg" alt="Guitarra de 5 cordas" />
+              <p class="desc">Contra-Baixo Acústicos <br>
+                color crimisson gray 4 cordas <br>
+            </p>
+                    <p class="preco">R$ 1.423,00</p>
+                    <button class="comprarbtn" onclick="abrircomprar('fotos/baixo/contra11.jpeg','Contra-Baixo Acústicos color crimisson gray 4 cordas', 1.423,00)"><i class="fa-solid fa-cart-shopping"></i> Comprar Agora</button>
+                </div>
+                <div class="box-contra">
+                    <img src="fotos/baixo/contra12.jpeg" alt="Guitarra Strinberg Telecaster Tc120S Bk Preto">
+                    <p class="desc">Contra-Baixo Mustang <p >
+                        COLOR skyeblue 4 CORDAS</p>
+                       
+                    <p class="preco">R$ 1.549,00</p>
+                    <button class="comprarbtn" onclick="abrircomprar('fotos/baixo/contra12.jpeg','Contra-Baixo Mustang COLOR skyeblue 4 CORDAS', 1.549,00)"><i class="fa-solid fa-cart-shopping"></i> Comprar Agora</button>
+                </div>
+            </div>
+            
+        </div>
+        
+    
+</div>
+    <div class="clear"></div>
+</section>
+</article>
+    <footer>
+        <hgroup class="logo">
+            <a href="/">
+                <h1 class="a">TuneSound</h1>
+                <p> Musica para todos os momentos.</p>
+            </a>
+        </hgroup>
+        <nav>
+            <ul class="sobre-footer">
+                <h2>Conheça-nos</h2>
+                <br>
+                <hr>
+                <br>
+                <li><a href="sobrenos.html">Sobre nós</a></li>
+                <li><a href="contato.html">Contato</a></li>
+                
+            </ul>
+        </nav>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3485.7628537723344!2d-49.639831385109176!3d-29.11268179552343!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95223c3a4a83e783%3A0x19c1ab84184ec7de!2sR.%20Jo%C3%A3o%20Jos%C3%A9%20de%20Guimar%C3%A3es%2C%20491%20-%20Centro%2C%20Sombrio%20-%20SC%2C%2088960-000!5e0!3m2!1spt-BR!2sbr!4v1668896481042!5m2!1spt-BR!2sbr" width="30%" height="85%" style="border:0; margin-top: 10px;margin-left: 50px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <div class="clear"></div>
+    </footer>
+    <div class="overlay-compra" id="overlay-compra"></div>
+    <div class="box-compra" id="box-compra">
+        <button onclick="fecharcompra()" id="close"><i class="fa-regular fa-circle-xmark"></i></button>
+        <div class="clear"></div>
+        <p>Você esta comprando:</p>
+        <div class="box-whatubuying">
+            <img class="left" width="30%" id="img" src="">   
+            <p id="desc" class="desc right" width="50%"></p>
+            <p id="preco" class="preco right" width="50%"></p>
+            <div class="clear"></div>
+        </div>
+        <br>
+        <form class="cartao">
+            <label for="name">Insira seu nome completo:</label>
+            <input type="text" name="name" placeholder="Jõao Maria da Silva">
+            <label for="idade">Insira sua data de nascimento:</label>
+            <input type="date" name="idade" placeholder="16/11/2006">
+            <label for="cpf">Insira seu CPF:</label>
+            <input type="text" name="cpf" maxlength="11" placeholder="000-000-000-00">
+            <label for="cartao">Insira o Número do seu cartão:</label>
+            <input type="text" name="cartao" maxlength="16" placeholder="0000-0000-0000-0000">
+            <label for="venc">Insira a data de vencimento do cartão:</label>
+            <input type="date" name="venci">
+            <label for="cvv">Insira o codigo de verificação de seu cartão:</label>
+            <input type="text" name="cvv" placeholder="000" maxlength="3">
+            <br>
+            <hr>
+            <br>
+            <form class="endereco">
+                <label for="cep">Digite seu CEP:</label>
+                <input type="cep" name="cep" placeholder="00000-000" maxlength="9">
+                <label for="rua">Digite sua rua:</label>
+                <input type="rua" name="rua" placeholder="Rua Maria João de Silva">
+                <label for="num">Insira o numero de sua resindencia ou apartamento:</label>
+            <input type="text" name="num" placeholder="1111" maxlength="4">
+            </form>
+            <button class="sbmit"><i class="fa-regular fa-circle-check"></i><a href="comprafi.html"> Finalizar Compra</a></button>
+            
+        </form>
+        <b>Esse formulario de compra é ficticio, por favor não coloque seus dados reais!</b>
+    </div>
+</body>
+
+<script src="main.js"></script>
+</html>
+

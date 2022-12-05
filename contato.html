@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TuneSound - Musica para todos os momentos</title>
+    <script src="main.js"></script>
+    <!-- CSS -->
+    <link rel="stylesheet" href="styles/style.css">
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&family=Poppins:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,500;1,600;1,700;1,800&family=Satisfy&display=swap" rel="stylesheet">
+
+    <!-- WEBKIT -->
+    <script src="https://kit.fontawesome.com/d9dda7c4a9.js" crossorigin="anonymous"></script>
+    <header>
+        <hgroup class="titulos left">
+            <a href="index.html">
+                <h1 class="a">TuneSound</h1>
+                <p> Musica para todos os momentos.</p>
+            </a>
+        </hgroup>
+        <nav class="menu">
+            <ul class="right">
+               <li><a href="index.html"><b>Loja</b></a></li>
+               <li><a href="sobrenos.html"><b>Sobre nós</b></a></li>
+               <li><a href="contato.html"><b>Contato</b></a></li>
+            </ul>
+       </nav>
+       <div class="clear"></div>
+       <br>
+    </header>
+</head>
+
+
+
+
+<body>
+    <br>
+    <nav>
+        <ul class="instru" >
+            <li onclick=show() ><a href="#">Guitarra <span id="guitarra-up"><i class="fa-solid fa-caret-down"></i></span></a>
+
+                <li onclick=show4() ><a href="#">Contra-Baixo<span id="baixo-up"><i class="fa-solid fa-caret-down"></i></span></a>
+                    
+                </li>
+                    
+    
+                    <li onclick=show2()><a href="#">Violões <span id="violao-up"><i class="fa-solid fa-caret-down"></i></span></a>
+    
+                            
+                            
+                            </li>
+
+                            <ul class="gui2" id="gui2">
+                                <li><a href="violoes.html#Dreadnought"><b>  Dreadnought</b></a></li>
+                                <li><a href="violoes.html#Classical"><b>  Classical</b></a></li>
+                                <li><a href="violoes.html#Concert"><b>  Concert</b></a></li>
+                                <li><a href="violoes.html#Parlor"><b>  Parlor</b></a></li>
+                                 <li><a href="violoes.html#Triple"><b>  Triple-0</b></a></li>
+                                <li><a href="violoes.html#Malibu"><b>  Malibu</b></a></li>
+                                <li><a href="violoes.html#Newporter"><b>  Newporter</b></a></li>
+                                <li><a href="violoes.html#Redondo"><b>  Redondo</b></a></li>
+                                <li><a href="violoes.html#Mini"><b>  Mini</b></a></li>
+                                 <li><a href="violoes.html#Auditorium"><b>  Auditorium</b></a></li>                    
+                            </ul>
+                        </li>
+
+
+            <ul class="gui" id="gui">
+                <li><a href="guitarras.html#Stratocaster"><b> Stratocaster</b></a></li>
+                <li><a href="guitarras.html#Telecaster"><b>Telecaster</b></a></li>
+                <li><a href="guitarras.html#Jazzmaster"><b>Jazzmaster</b></a></li>
+                <li><a href="guitarras.html#Jaguar"><b>Jaguar</b></a></li>
+                <li><a href="guitarras.html#Mustang"><b>Mustang</b></a></li>
+                <li><a href="guitarras.html#Starcaster"><b>Starcaster</b></a></li>
+                <li><a href="guitarras.html"><b>Ver Todos</b></a></li>
+                
+                </ul>
+                
+                <ul class="gui4" id="gui4">
+                    <li><a href="cotrabaixo.html#Jazz Bass"><b>Jazz Bass</b></a></li>
+                    <li><a href="cotrabaixo.html#Precision Bass"><b>Precision Bass</b></a></li>
+                    <li><a href="cotrabaixo.html#Dimensions Bass"><b>Dimensions Bass</b></a></li>
+                    <li><a href="cotrabaixo.html#Mustang Bass"><b>Mustang Bass</b></a></li>
+                    <li><a href="cotrabaixo.html#Jaguar Bass"><b>Jaguar Bass</b></a></li>
+                    <li><a href="cotrabaixo.html#Acústicos"><b>Acústicos</b></a></li>               
+                </ul>
+            
+                
+        </li>            
+        
+    </nav>
+    <br>
+    <hr>
+    <article class="contato">
+        <div class="center">
+            <h2 class="c">Preencha o formulario e entre em contato conosco</h2>
+    <div class="formu">
+        <form action="/action_page.php">
+            <label  class="name" for="fname">Nome :</label><br>
+            <input type="text" id="fname" name="fname" placeholder="Digite seu nome" maxlength="50" minlength="2"><br>
+
+            <label class="sobre" for="lname">Sobrenome:</label><br>
+            <input type="text" id="lname" name="lname" placeholder="Digite seu Sobrenome" maxlength="50" minlength="2"><br><br>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" placeholder="Digite seu email"value=""><br><br>
+
+            <label for="dnasc">Data de nascimento:</label><br>
+            <input type="date" id="dnasc" name="dnasc" value=""min="2022-01-01" max="0000-12-31"><br><br>
+
+            <label for="sexo">Sexo:</label><br>
+            <input type="radio" id="sexo" name="sexo" value="">
+            <label for="sexo">Masculino</label><br>
+            <input type="radio" id="sexo" name="sexo" value="">
+            <label for="sexo">Feminino</label><br>
+           <input type="submit" value="Enviar mensagem" class="enviar">
+
+        </form> 
+    </div>
+        </div>
+
+    </article>
+  <footer>
+    <hgroup class="logo">
+        <a href="/">
+            <h1 class="a">TuneSound</h1>
+            <p> Musica para todos os momentos.</p>
+        </a>
+    </hgroup>
+    <nav>
+        <ul class="sobre-footer">
+            <h2>Conheça-nos</h2>
+            <br>
+            <hr>
+            <br>
+            <li><a href="sobrenos.html">Sobre nós</a></li>
+            <li><a href="contato.html">Contato</a></li>
+            
+        </ul>
+    </nav>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3485.7628537723344!2d-49.639831385109176!3d-29.11268179552343!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95223c3a4a83e783%3A0x19c1ab84184ec7de!2sR.%20Jo%C3%A3o%20Jos%C3%A9%20de%20Guimar%C3%A3es%2C%20491%20-%20Centro%2C%20Sombrio%20-%20SC%2C%2088960-000!5e0!3m2!1spt-BR!2sbr!4v1668896481042!5m2!1spt-BR!2sbr" width="30%" height="85%" style="border:0; margin-top: 10px;margin-left: 50px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    <div class="clear"></div>
+</footer>
+
+</body>
+</html>     

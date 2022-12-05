@@ -1,0 +1,59 @@
+.contra section {
+    padding: 10px 20px;
+}
+.contra section h2 {
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+
+.contra section .box-contras {
+    display: flex;
+}
+
+.contra section .box-contras .box-contra {
+    padding: 2px;
+    width: 33.33%;
+    margin: 0 35px;
+}
+
+.contra section .box-contras .box-contra img {
+    width: 100%;
+    border: 1px solid black;
+}
+
+.contra section .box-contras .box-contra .desc {
+    margin-top: 25px;
+    color: #212121;
+    text-align: left;
+    text-transform: uppercase;
+}
+
+.contra section .box-contras .box-contra .preco {
+    text-align: center;
+    color: #0048a0;
+    font-weight: bolder;
+    font-family: 'Poppins', Arial, Helvetica, sans-serif;
+    font-size: 20pt;
+}
+
+.contra section .box-contras .box-contra .comprarbtn {
+    background-color: #ed254e;
+    padding: 10px 30px;
+    width: 100%;
+    border: 0;
+    color: white;
+    font-family: 'Poppins', Arial, Helvetica, sans-serif;
+    cursor: pointer;
+}
+
+.bx {
+    width: 350px !important;
+    height: 350px;
+}
+
+.bx1 {
+    width: 320px !important;
+    height: 300px;
+    float: center;
+}

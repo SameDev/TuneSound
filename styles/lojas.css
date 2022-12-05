@@ -1,0 +1,43 @@
+.guitar
+{
+    position: absolute;
+    left: 10px;
+}
+
+
+.com1
+{
+    position: absolute;
+    right: 90px;
+    display: block;
+    font-size: 30px;
+    background-color: green;
+    border-radius: 10px;
+}
+
+.bah
+{
+    left: 10px;
+    position:absolute;
+    bottom: 10px;
+    color: blue;
+  
+   
+
+}
+
+.compra
+{
+    display: none;
+    left: 180px;
+    position: absolute;
+    background-color: white;
+    text-align: center;
+    
+}
+
+.show4
+{
+    display: grid;
+    padding: 0.5rem;
+}

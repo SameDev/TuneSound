@@ -1,0 +1,154 @@
+.banner-principal {
+    background-image: url('../fotos/passa.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    height: 60vh;
+    width: 100%;
+}
+
+.banner-principal h2 {
+    color: white;
+    font-family: 'Poppins', Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    position: relative;
+    top: 20vh;
+    font-size: 25pt;
+    left: 60vw;
+    width: 33vw;
+}
+
+.banner-principal h2 b {
+    font-family: 'Satisfy', cursive;
+    font-size: 45pt;
+    margin-left: 5px;
+}
+
+/* MODELOS */
+
+.modelos {
+    padding: 25px 0;
+}
+
+.modelos h2 {
+    text-align: center;
+}
+
+.modelos .box-modelos {
+    display: flex;
+}
+
+.modelos .box-modelos .box-modelo {
+    padding: 2px;
+    width: 15%;
+    margin: 0 35px;
+}
+
+
+.box-modelo a {
+    text-decoration: none;
+    width: 100%;
+    text-align: center;
+}
+
+.modelos .box-modelos .box-modelo img {
+    width: 100%;
+    border: 1px solid black;
+}
+
+.modelos .desc {
+    margin-top: 32px;
+    color: #212121;
+}
+
+/* RECÉM CHAGADOS */
+
+.recem-chegados {
+    padding: 0 20px;
+    margin-bottom: 40vh;
+}
+
+.recem-chegados h2 {
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.recem-chegados h2 b {
+    font-family: 'Satisfy', cursive;
+    font-size: 20pt;
+}
+.recem-chegados .box-chegados {
+    display: flex;
+}
+
+.recem-chegados .box-chegados .box-chegado {
+    padding: 2px;
+    width: 15%;
+    margin: 0 35px;
+    height: 20vh;
+}
+
+.recem-chegados .box-chegados .box-chegado img {
+    width: 100%;
+    border: 1px solid black;
+}
+
+.recem-chegados .desc {
+    margin-top: 25px;
+    color: #212121;
+    text-align: left;
+}
+
+.recem-chegados .preco {
+    text-align: center;
+    color: #0048a0;
+    font-weight: bolder;
+    font-family: 'Poppins', Arial, Helvetica, sans-serif;
+    font-size: 20pt;
+}
+
+.recem-chegados .comprarbtn {
+    background-color: #ed254e;
+    padding: 10px 30px;
+    width: 100%;
+    border: 0;
+    color: white;
+    font-family: 'Poppins', Arial, Helvetica, sans-serif;
+    cursor: pointer;
+}
+
+/* TABLE */
+
+.marcas table {
+    width: 100%;
+}
+
+.marcas table thead tr td {
+    font-size: 20px;
+    font-family: 'Poppins', Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    background-color: #0048a0;
+    color: white;
+    border: 1px solid #0048a0;
+    padding: 2px;
+}
+
+.marcas table tbody tr td {
+    border: 1px solid black;
+    padding: 2px;
+}
+.divulgacao {
+    width: 100%;
+    text-align: center;
+}
+
+.divulgacao img {
+    width: 100%;
+}
+
+.divulgacao button {
+    cursor: pointer;
+    background: none;
+    border: 0;
+}
