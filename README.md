@@ -1,7 +1,7 @@
 <h1>Loja Virtual de Instrumentos</h1>
 <h1>Tune Sound</h1>
 
-Este repositório contém o código-fonte da Loja Virtual de Instrumentos, um projeto de e-commerce desenvolvido por uma equipe de dois programadores front-end. A loja virtual permite aos usuários navegar e comprar uma variedade de instrumentos musicais.
+Este repositório contém o código-fonte da Loja Virtual de Instrumentos, um projeto de e-commerce desenvolvido por uma equipe de dois programadores front-end. A loja virtual permite aos usuários navegar e comprar uma variedade de instrumentos musicais com corda.
 
 # Funcionalidades
 - Visualizar a lista de produtos disponíveis na loja.
