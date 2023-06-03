@@ -18,10 +18,9 @@ Clone este repositório em sua máquina local:
 
 
 `git clone https://github.com/seu-usuario/nome-do-repositorio.git`
-Navegue até o diretório do projeto:
 
-`cd nome-do-repositorio`
-Instale as dependências necessárias:
+Navegue até o diretório do projeto:
+`cd nome-do-repositorio` 
 
 Clique duas vezes no arquivo *index.html*.
 
